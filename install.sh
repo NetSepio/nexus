@@ -363,17 +363,8 @@ configure_node() {
     # Prompt for Node Details
     read -p "Enter your node name: " NODE_NAME
 
-    # Prompt for Config Type
-    printf "Select a configuration type from list below:\n"
-    PS3="Select a config type (e.g. 1): "
-    options=("BEACON" "NEXUS")
-    select CONFIG in "${options[@]}"; do
-        if [ -n "$CONFIG" ]; then
-            break
-        else
-            echo "Invalid choice. Please select a valid config type."
-        fi
-    done
+    # Set CONFIG to Nexus
+    CONFIG="NEXUS"
 
     # Prompt for Chain
     printf "Select valid chain from list below:\n"
