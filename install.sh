@@ -32,7 +32,7 @@ display_header() {
     echo -e "${bold}${orange}║${reset}            ${orange}Requirements:${reset}                                        ${bold}${orange}║${reset}"
     echo -e "${bold}${orange}║${reset}            ${dim}1.${reset} Public IP with internet routing                   ${bold}${orange}║${reset}"
     echo -e "${bold}${orange}║${reset}               ${dim}• Node requires public IP accessibility${reset}           ${bold}${orange}║${reset}"
-    echo -e "${bold}${orange}║${reset}            ${dim}2.${reset} Open ports: ${orange}9080${reset}, ${orange}9002${reset}, ${orange}51820${reset}                     ${bold}${orange}║${reset}"
+    echo -e "${bold}${orange}║${reset}            ${dim}2.${reset} Open ports: ${orange}9002${reset}, ${orange}51820${reset}, ${orange}443${reset} & ${orange}80${reset},                ${bold}${orange}║${reset}"
     echo -e "${bold}${orange}║${reset}               ${dim}• Required for proper node operation${reset}              ${bold}${orange}║${reset}"
     echo -e "${bold}${orange}╚═════════════════════════════════════════════════════════════════╝${reset}"
     echo
